@@ -33,7 +33,7 @@ public class Cama {
         this.estado = estado;
     }
 
-
     
 }
+
 
