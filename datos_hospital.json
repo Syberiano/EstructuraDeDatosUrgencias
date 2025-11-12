@@ -1,0 +1,77 @@
+{
+  "pacientesEnEspera": [
+    {
+      "numeroDocumento": "1000636088",
+      "nombre": "Jhon Correa",
+      "nivelTriage": 3,
+      "diagnostico": "Sin diagnóstico",
+      "camaAsignada": -1,
+      "pisoAsignado": -1,
+      "medicoAsignado": "Sin asignar"
+    }
+  ],
+  "pacientesHospitalizados": [],
+  "medicos": [
+    {
+      "codigo": "M001",
+      "nombre": "Dr. Carlos Pérez",
+      "especialidad": "Urgencias",
+      "disponible": true,
+      "pacientesAtendidos": 0
+    },
+    {
+      "codigo": "M002",
+      "nombre": "Dra. Ana Gómez",
+      "especialidad": "Pediatría",
+      "disponible": true,
+      "pacientesAtendidos": 0
+    },
+    {
+      "codigo": "M003",
+      "nombre": "Dr. Luis Martínez",
+      "especialidad": "Cirugía",
+      "disponible": true,
+      "pacientesAtendidos": 0
+    },
+    {
+      "codigo": "M004",
+      "nombre": "Dra. María Rodríguez",
+      "especialidad": "Medicina Interna",
+      "disponible": true,
+      "pacientesAtendidos": 0
+    },
+    {
+      "codigo": "M005",
+      "nombre": "Dr. José López",
+      "especialidad": "Cardiología",
+      "disponible": true,
+      "pacientesAtendidos": 0
+    }
+  ],
+  "historialAtenciones": [],
+  "estadoCamas": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "totalPacientesAtendidos": 0,
+  "turnoActual": "Turno Noche (22:00 - 06:00)"
+}
