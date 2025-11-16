@@ -1,23 +1,51 @@
 {
   "pacientesEnEspera": [
     {
-      "numeroDocumento": "1000636088",
-      "nombre": "Jhon Correa",
-      "nivelTriage": 3,
+      "numeroDocumento": "1001234568 ",
+      "nombre": "Ana L¢pez",
+      "nivelTriage": 4,
       "diagnostico": "Sin diagnóstico",
       "camaAsignada": -1,
       "pisoAsignado": -1,
       "medicoAsignado": "Sin asignar"
     }
   ],
-  "pacientesHospitalizados": [],
+  "pacientesHospitalizados": [
+    {
+      "numeroDocumento": "1001234569",
+      "nombre": "Pedro G¢mez",
+      "nivelTriage": 1,
+      "diagnostico": "Sin diagnóstico",
+      "camaAsignada": 0,
+      "pisoAsignado": 0,
+      "medicoAsignado": "Sin asignar"
+    },
+    {
+      "numeroDocumento": "1001234567",
+      "nombre": "Carlos Ram¡rez",
+      "nivelTriage": 2,
+      "diagnostico": "Fractura de tibia, requiere cirug¡a inmediata",
+      "camaAsignada": 1,
+      "pisoAsignado": 0,
+      "medicoAsignado": "Dr. Carlos Pérez"
+    },
+    {
+      "numeroDocumento": "1001234570",
+      "nombre": "Mar¡a Torres",
+      "nivelTriage": 3,
+      "diagnostico": "Sin diagnóstico",
+      "camaAsignada": 2,
+      "pisoAsignado": 0,
+      "medicoAsignado": "Sin asignar"
+    }
+  ],
   "medicos": [
     {
       "codigo": "M001",
       "nombre": "Dr. Carlos Pérez",
       "especialidad": "Urgencias",
       "disponible": true,
-      "pacientesAtendidos": 0
+      "pacientesAtendidos": 1
     },
     {
       "codigo": "M002",
@@ -46,14 +74,21 @@
       "especialidad": "Cardiología",
       "disponible": true,
       "pacientesAtendidos": 0
+    },
+    {
+      "codigo": "MED005",
+      "nombre": "Dr. Roberto S nchez",
+      "especialidad": "Urgencias",
+      "disponible": true,
+      "pacientesAtendidos": 0
     }
   ],
   "historialAtenciones": [],
   "estadoCamas": [
     [
-      0,
-      0,
-      0,
+      1,
+      1,
+      1,
       0,
       0
     ],
@@ -73,5 +108,5 @@
     ]
   ],
   "totalPacientesAtendidos": 0,
-  "turnoActual": "Turno Noche (22:00 - 06:00)"
+  "turnoActual": "Turno Mañana (06:00 - 14:00)"
 }
